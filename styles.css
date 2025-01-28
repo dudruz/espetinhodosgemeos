@@ -1,0 +1,19 @@
+.cardapio-container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cardapio-scroll {
+    overflow-y: auto;
+    height: 600px; /* ajuste o height de acordo com a altura da imagem */
+}
+
+.cardapio-scroll img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
